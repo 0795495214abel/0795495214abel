@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design & Development</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: url("screenshot\ tree.jpeg") no-repeat center center/cover;
+            color: white;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 20px 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+        }
+        .logo {
+            font-size: 28px;
+            color: orange;
+            font-weight: bold;
+        }
+        .search-box {
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 100px;
+        }
+        .text {
+            max-width: 50%;
+        }
+        .text h1 {
+            font-size: 48px;
+        }
+        .text span {
+            color: orange;
+        }
+        .text p {
+            margin: 20px 0;
+        }
+        .btn {
+            background: orange;
+            padding: 10px 20px;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .login-box {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .login-box input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .login-box .btn {
+            display: block;
+            width: 100%;
+        }
+        .social-icons a {
+            color: white;
+            margin: 10px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">PraRoz</div>
+            <div>
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">SERVICE</a>
+                <a href="#">DESIGN</a>
+                <a href="#">CONTACT</a>
+            </div>
+            <input type="text" class="search-box" placeholder="Type to Search">
+        </div>
+        
+        <div class="content">
+            <div class="text">
+                <h1>Web Design & <span>Development</span> Course</h1>
+                <p>Web Design is a specialization of the design stream. They also use HTML, CSS, WYSIWYG editing software, mark-up validators, etc., to create design elements.</p>
+                <a href="#" class="btn">JOIN US</a>
+            </div>
+            <div class="login-box">
+                <h2>Login Here</h2>
+                <input type="email" placeholder="Enter Email Here">
+                <input type="password" placeholder="Enter Password Here">
+                <button class="btn">Login</button>
+                <p>Don't have an account? <a href="#" style="color: orange;">Sign up here</a></p>
+                <p>Log in with</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.google.com" target="_blank"><i class="fab fa-google"></i></a>
+                    <a href="https://www.skype.com" target="_blank"><i class="fab fa-skype"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
